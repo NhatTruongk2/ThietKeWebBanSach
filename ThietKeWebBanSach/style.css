@@ -1,4 +1,41 @@
 ﻿
+
+
+#tendanhmuc{
+    font-style:italic;
+    font-size:150%;
+    margin-left:100px;
+}
+.hotline {
+    position: absolute;
+    top: 30px;
+    left: 500px;
+   
+    color:aliceblue;
+    padding: 10px;
+}
+
+.quangcao {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.ad {
+    display: inline-block;
+    margin: 10px;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 .theme-button {
     background-color: #3498db;
     color: #fff;
