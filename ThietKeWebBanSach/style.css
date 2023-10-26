@@ -1,0 +1,160 @@
+﻿
+.theme-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    float: right; /* Đặt nút bên phải */
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .theme-button:hover {
+        background-color: #2980b9;
+    }
+    
+    *{
+    font-family:'Segoe UI';
+}
+
+
+.search-input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.search-button {
+  
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+
+}
+
+    .search-button:hover {
+        background-color: #2980b9;
+    }
+
+
+
+/* Kéo dài chiều cao của header */
+.header-extended {
+    height: 150px; /* Chiều cao mới cho header */
+}
+.button{
+    position: absolute;
+    top: 60px; /* Đặt khoảng cách từ trên xuống */
+    right: 10px; /* Đặt khoảng cách từ phải qua */
+}
+#btn_dangky{
+    padding: 10px 20px; /* Đặt kích thước của nút */
+    background-color: #3498db; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border: none; /* Loại bỏ đường viền */
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#btn_dangnhap{
+    padding: 10px 20px; /* Đặt kích thước của nút */
+    background-color: #3498db; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border: none; /* Loại bỏ đường viền */
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer;
+    margin-left: 10px;
+}
+#btn_dangky:hover {
+    background-color: #2980b9; /* Màu nền khi di chuột qua */
+}
+#btn_dangnhap:hover {
+    background-color: #2980b9; /* Màu nền khi di chuột qua */
+}
+#tenweb {
+    color: aquamarine;
+   
+    font-size: 300%;
+    margin:-1%;
+    font-style:oblique;
+    
+}
+
+.button{
+    color:aqua;
+    float:right;
+
+}
+
+
+body {
+    background: #211917 url(../images/bg-body.png) repeat-y center top;
+    font-family: "QuattrocentoSans-Regular";
+    margin: 0;
+}
+
+  
+/*------------------------------ HEADER ------------------------------*/
+#header {
+    background-color: #241b18;
+    height: 120px;
+    border-bottom: 1px solid #fff;
+    padding: 36px 0 0;
+    text-align: center;
+}
+
+    #header > div {
+        width: 940px;
+        margin: 0 auto;
+        padding: 0 10px;
+        text-align: right;
+    }
+/** Logo **/
+body {
+    background-color:aliceblue;
+}
+/** Navigation **/
+#navigation {
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    *width: 345px; /** Needed for IE7 **/
+}
+
+    #navigation li {
+        float: left;
+        margin: 0 15px;
+    }
+
+        #navigation li:first-child {
+            margin-left: 0;
+        }
+
+        #navigation li a {
+            color: #fff;
+            font-family: "Oswald";
+            font-size: 14px;
+            padding: 15px 0;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+            #navigation li a:hover, #navigation li.selected a {
+                color: #ffc947;
+            }
+/*------------------------------ CONTENTS ------------------------------*/
+
+
