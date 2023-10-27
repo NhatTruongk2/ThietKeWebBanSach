@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dangky.html" />
+    <Content Include="dangkydangnhap.css" />
     <Content Include="index.html" />
     <Content Include="style.css" />
     <Content Include="trangchu.html" />

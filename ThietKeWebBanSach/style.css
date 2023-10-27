@@ -91,34 +91,10 @@ img {
 }
 .button{
     position: absolute;
-    top: 60px; /* Đặt khoảng cách từ trên xuống */
+    top: 70px; /* Đặt khoảng cách từ trên xuống */
     right: 10px; /* Đặt khoảng cách từ phải qua */
 }
-#btn_dangky{
-    padding: 10px 20px; /* Đặt kích thước của nút */
-    background-color: #3498db; /* Màu nền */
-    color: #fff; /* Màu chữ */
-    border: none; /* Loại bỏ đường viền */
-    border-radius: 5px; /* Bo góc nút */
-    cursor: pointer;
-    margin-left: 10px;
-}
 
-#btn_dangnhap{
-    padding: 10px 20px; /* Đặt kích thước của nút */
-    background-color: #3498db; /* Màu nền */
-    color: #fff; /* Màu chữ */
-    border: none; /* Loại bỏ đường viền */
-    border-radius: 5px; /* Bo góc nút */
-    cursor: pointer;
-    margin-left: 10px;
-}
-#btn_dangky:hover {
-    background-color: #2980b9; /* Màu nền khi di chuột qua */
-}
-#btn_dangnhap:hover {
-    background-color: #2980b9; /* Màu nền khi di chuột qua */
-}
 #tenweb {
     color: aquamarine;
    

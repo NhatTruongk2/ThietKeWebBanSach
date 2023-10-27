@@ -1,0 +1,55 @@
+﻿.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Canh giữa các phần tử bên trong */
+}
+
+.form h2 {
+    color: #333;
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và các trường nhập liệu */
+}
+
+.form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px; /* Khoảng cách giữa các nhãn và trường nhập liệu */
+    color: #333;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px; /* Khoảng cách giữa các trường nhập liệu */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* CSS cho nút "Thoát" */
+.exit-button {
+    background-color: #ff0000; /* Màu đỏ */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Khoảng cách giữa nút và các trường nhập liệu */
+
+}
