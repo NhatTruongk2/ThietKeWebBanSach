@@ -1,55 +1,65 @@
 ﻿.form {
+    width:40%;
+    
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
-    width: 500px;
+    padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center; /* Canh giữa các phần tử bên trong */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
-.form h2 {
-    color: #333;
-    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và các trường nhập liệu */
+    .form h2 {
+        text-align: center;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form label {
+        margin-top: 10px;
+    }
+
+    .form input,
+    .form select {
+        margin: 5px 0;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+
+        .form input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+    .form .exit-button {
+        margin-top: 10px;
+        background-color:red;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+/* CSS cho nút Đăng ký và Đăng nhập */
+.button {
+    display: flex;
 }
 
-.form label {
-    display: block;
-    text-align: left;
-    margin-top: 10px; /* Khoảng cách giữa các nhãn và trường nhập liệu */
-    color: #333;
-}
-
-.form input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 10px; /* Khoảng cách giữa các trường nhập liệu */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.form input[type="submit"] {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-/* CSS cho nút "Thoát" */
-.exit-button {
-    background-color: #ff0000; /* Màu đỏ */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px; /* Khoảng cách giữa nút và các trường nhập liệu */
-
-}
+    .button button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }

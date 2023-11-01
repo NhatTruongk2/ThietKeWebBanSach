@@ -1,6 +1,4 @@
 ﻿
-
-
 #tendanhmuc{
     font-style:italic;
     font-size:150%;
@@ -15,13 +13,7 @@
     padding: 10px;
 }
 
-.quangcao {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: aliceblue;
-    float: left;
-}
+
 
 .ad {
     display: inline-block;
@@ -45,11 +37,13 @@ img {
     margin: 5px;
     cursor: pointer;
     float: right; /* Đặt nút bên phải */
+
 }
 .search-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
     .theme-button:hover {
@@ -99,7 +93,7 @@ img {
     color: aquamarine;
    
     font-size: 300%;
-    margin:-1%;
+    margin-top:-10px;
     font-style:oblique;
     
 }
@@ -137,37 +131,42 @@ body {
 body {
     background-color:aliceblue;
 }
-/** Navigation **/
+
+
+/* Định dạng cho danh sách ul */
 #navigation {
-    display: inline-block;
-    line-height: 80px;
     list-style: none;
     margin: 0;
     padding: 0;
-    *width: 345px; /** Needed for IE7 **/
 }
 
+    /* Định dạng cho mỗi mục li trong danh sách */
     #navigation li {
-        float: left;
-        margin: 0 15px;
+
+        display: inline; /* Hiển thị các mục li trên cùng một hàng */
+        margin-right: 20px; /* Khoảng cách giữa các mục li */
     }
 
-        #navigation li:first-child {
-            margin-left: 0;
+    /* Định dạng cho các li có class "navMenu" */
+    #navigation .navMenu {
+        font-weight: bold;
+        color: #333; /* Màu chữ */
+    }
+
+    /* Định dạng cho các thẻ a bên trong mục li */
+    #navigation a {
+        text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+        color:azure; /* Màu liên kết */
+        transition: color 0.3s; /* Hiệu ứng màu khi di chuột qua liên kết */
+    }
+
+        /* Định dạng cho liên kết khi di chuột qua */
+        #navigation a:hover {
+            color: #ff5733; /* Màu liên kết khi di chuột qua */
         }
 
-        #navigation li a {
-            color: #fff;
-            font-family: "Oswald";
-            font-size: 14px;
-            padding: 15px 0;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
 
-            #navigation li a:hover, #navigation li.selected a {
-                color: #ffc947;
-            }
-/*------------------------------ CONTENTS ------------------------------*/
 
+
+ 
 

@@ -1,0 +1,87 @@
+﻿.sanpham1 {
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px; /* Điều chỉnh chiều rộng theo ý muốn */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    height: 380px;
+}
+
+.quangcao {
+    width: 1550px;
+    height: 243px;
+    background-color: crimson;
+    z-index: 1;
+}
+
+
+.tensanpham {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.gia {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+/* CSS cho ảnh sản phẩm */
+.img1 {
+    width: 222px;
+    height: 302px;
+    z-index: 1;
+}
+
+
+
+.sachhot{
+    width:1550px;
+    height:510px;
+    background-color:crimson;
+}
+
+ .hot{
+    color:antiquewhite;
+    font-style:italic;
+    margin-left:550px;
+}
+
+.ad-container {
+    width: 100%; /* Kéo dài toàn bộ chiều rộng của trang */
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.ad {
+    width: 200%; /* Kéo dài chiều rộng quảng cáo gấp đôi */
+    height: 100%;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 250px;
+    position: absolute;
+    left: 0; /* Bắt đầu từ bên trái */
+    animation: slide 20s linear infinite; /* Tăng thời gian để đi qua toàn bộ trang */
+    z-index: 1;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%; /* Đi qua toàn bộ chiều rộng */
+    }
+}
+.ad img {
+    width: 400px;
+    height: 240px;
+    z-index: 1;
+}
