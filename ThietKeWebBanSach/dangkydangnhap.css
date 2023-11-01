@@ -44,6 +44,7 @@
     .form .exit-button {
         margin-top: 10px;
         background-color:red;
+        height:36px;
         color: #fff;
         border: none;
         padding: 5px 10px;
